@@ -1,0 +1,10 @@
+{
+  "name": "fansmovie",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FansMovie — movie/web series catalog with Supabase backend. Plain HTML/CSS/JS static site; no framework, no bundler.",
+  "scripts": {
+    "build": "node scripts/generate-config.js",
+    "start": "npx --yes http-server . -p 8080 -c-1"
+  }
+}
